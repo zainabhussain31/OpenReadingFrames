@@ -10,7 +10,7 @@ Find the longest open reading frame from a group of fasta DNA sequences
     ```
 
 ## Input File Format
-The input file should be in the fasta format, containing DNA sequences.
+The input file will be in the fasta format, containing DNA sequences.
 
 ## Output
 The script will print the longest DNA ORF found in the input sequences. If `--print_length` is specified, it will also print the length.
@@ -18,8 +18,8 @@ The script will print the longest DNA ORF found in the input sequences. If `--pr
 ## Example
 ```bash
 # Without printing length
-python orf_finder.py example.fasta
+python orf_finder.py example.txt
 
 # With printing length
-python orf_finder.py example.fasta --print_length
+python orf_finder.py example.txt --print_length
 ```
